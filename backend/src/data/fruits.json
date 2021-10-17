@@ -5,28 +5,28 @@
       "name": "cherry",
       "weight": "0.2LB",
       "season": "all-year",
-      "image": "/media/images/cherry.png"
+      "image": "/images/cherry.png"
     },
     {
       "id": 2,
       "name": "apple",
       "weight": "0.6LB",
       "season": "all-year",
-      "image": "/media/images/apple.png"
+      "image": "/images/apple.png"
     },
     {
       "id": 3,
       "name": "strawberry",
       "weight": "0.1LB",
       "season": "summer",
-      "image": "/media/images/strawberry.png"
+      "image": "/images/strawberry.png"
     },
     {
       "id": 4,
       "name": "pineapple",
       "weight": "2LB",
       "season": "summer",
-      "image": "/media/images/pineapple.png"
+      "image": "/images/pineapple.png"
     }
   ]
 }

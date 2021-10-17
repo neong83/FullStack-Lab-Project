@@ -21,3 +21,5 @@ class Fruit {
     this.image = data.image || "";
   }
 }
+
+export { Fruit };
