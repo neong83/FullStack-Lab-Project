@@ -6,6 +6,10 @@ const app = express();
 const port = 8080;
 
 app.use("/api/v1", router);
+// Parse JSON bodies for this app. Make sure you put
+// `app.use(express.json())` **before** your route handlers!
+app.use(express.json());
+
 // Images
 app.use("/images", imageRouter);
 
