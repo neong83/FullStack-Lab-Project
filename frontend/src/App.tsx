@@ -33,7 +33,7 @@ function App() {
       <h1 className="f1">Fruit Catalog</h1>
       <Search onSearchChange={onSearchChange} searchFruits={searchFruits} />
       <Scroll>
-        {fruits.length == 0 ? (
+        {fruits.length === 0 ? (
           <h2>No fruit name matches with your search, try again</h2>
         ) : (
           <CardList data={fruits} />
