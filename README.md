@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Intro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This toy project contain both backend and frontend to allow application exchange content
 
-## Available Scripts
+# What for
 
-In the project directory, you can run:
+My daily task is building out new features, I do not have experience on the following
 
-### `npm start`
+## Backend
+1. how to start the node.js project
+2. how to set up typescript and make it work with node.js
+3. how to handle json file data
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Frontend
+1. how to create a new project in node.js with React and typescript
+2. how to build simple but reusable UI components
+3. how to handle typing with React functional component
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Overall
+1. how to create project template for future project
 
-### `npm test`
+# Usage 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Development setup
 
-### `npm run build`
+### Pre-setup
+1. make sure you have `Node.js` version **12** or `nvm`
+2. make sure you install `Docker Desktop`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Steps
+1. clone project
+2. `cd` into project
+3. run `npm install && cd backend && npm install && cd ../frontend && npm install && cd ..`
+4. run `docker-componse build && docker-compose up -d`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*I previously had docker run `npm install` as well, the downside is `node modules` are require in local in order for development.  Therefore, I removed those functionalities and require user to build on local then run in container.*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Service URL
+Frontend: `http://localhost:3000`
+<br/>
+Backend: `http://localhost:8080`
 
-### `npm run eject`
+## Test
+### Backend
+1. open terminal
+2. go to `<project directory>/backend`
+3. run `npm run test`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Frontend
+I currently do not know how to build unit test and UI test, will continue add into this project in future.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
