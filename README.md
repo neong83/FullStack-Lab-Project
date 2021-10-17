@@ -26,6 +26,7 @@ My daily task is building out new features, I do not have experience on the foll
 ### Pre-setup
 1. make sure you have `Node.js` version **12** or `nvm`
 2. make sure you install `Docker Desktop`
+3. commands in `steps` are for bash, fish shell will replace `&&` with `&`
 
 ### Steps
 1. clone project
